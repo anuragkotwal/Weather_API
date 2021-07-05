@@ -24,7 +24,7 @@ weather.addEventListener('submit',(e) => {
                 msg1.textContent = 'Weather description: '+data.forecast;
                 msg2.textContent = 'Location: '+data.location;
                 msg3.textContent = 'Precipitation: '+ data.precip+'% Chance';
-                msg4.textContent = 'Temperature: ' + data.temperature +'°C';
+                msg4.textContent = 'It is currently ' + data.temperature +'°C out. It feels like '+data.feelslike+'°C out.';
             }
         })
 })
