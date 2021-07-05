@@ -5,7 +5,7 @@ h1{
 body{
     color:red;
     font-family: 'Courier New', Courier, monospace;
-    max-width: 400px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 10px;
 
@@ -31,6 +31,11 @@ header{
 }
 
 header a{
+    color: #888888;
+    margin-right: 10px;
+    text-decoration: none;
+}
+a{
     color: #888888;
     margin-right: 10px;
     text-decoration: none;
