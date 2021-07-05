@@ -1,0 +1,53 @@
+h1{
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+body{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main{
+    flex-grow: 1;
+}
+
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 10px;
+    padding:10px 0;
+}
+
+header{
+    margin-top: 10px;
+    margin-bottom: 38;
+}
+
+header a{
+    color: #888888;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.portrait{
+   width: 250px; 
+}
+
+input {
+    border: 3px solid #cccccc;
+    padding: 5px;
+}
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background-color: #000000;
+    color: white;
+    padding: 5px;
+}
+
