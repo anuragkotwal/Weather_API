@@ -19,13 +19,13 @@ hbs.registerPartials(partialpath);
 app.get('/', (req, res) => {
     res.render('index',{
         title: 'Weather',
-        name: 'Unknown',
+        name: 'Anurag Kotwal',
     });
 })
 app.get('/about',(req, res) => {
     res.render('about',{
         title: 'About page',
-        name: 'Unknown'
+        name: 'Anurag Kotwal'
     })
 })
 
@@ -33,7 +33,7 @@ app.get('/help',(req, res) => {
     res.render('help',{
         helptext: 'this is help page',
         title: 'Help page',
-        name:'Unknown',
+        name:'Anurag Kotwal',
     })
 })
 
@@ -65,7 +65,7 @@ app.get('/weather',(req, res) => {
 app.get('/help/*',(req, res) => { 
     res.render('error',{
         title: '404',
-        name: 'Unknown',
+        name: 'Anurag Kotwal',
         error: 'Help article not found',
     })
 })
@@ -73,7 +73,7 @@ app.get('/help/*',(req, res) => {
 app.get('*',(req, res) => {
     res.render('error',{
         title: '404',
-        name: 'Unknown',
+        name: 'Anurag Kotwal',
         error: 'Page not found'
     });
 })
